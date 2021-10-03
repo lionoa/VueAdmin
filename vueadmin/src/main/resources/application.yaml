@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/vueadmin
+    username: root
+    password: lionoa123
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**Mapper.xml
+
+jwt:
+  header: Authorization
+  expire: 604800
+  secret: ji8n3439n439n43ld9ne9343fdfer49h
